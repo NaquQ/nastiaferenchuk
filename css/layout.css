@@ -1,0 +1,10 @@
+header,
+section,
+footer {
+    min-height: 100vh; /*100% viewport heigh*/
+    background-color: cadetblue;
+}
+
+section:nth-of-type(odd) {
+    background-color: burlywood;
+}
